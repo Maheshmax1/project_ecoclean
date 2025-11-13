@@ -1,0 +1,114 @@
+/*
+====================================
+Sign Up Form CSS - Light Green Theme
+====================================
+*/
+
+/* --- Global & Body --- */
+body {
+    /* Uses the font from your main site's global CSS */
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    color: #333; /* Dark text for readability */
+    background: #f0fff0; /* Very light, almost white green background */
+    margin: 0;
+    padding: 0;
+    /* Center the container vertically and horizontally on the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Container (The Card) --- */
+.container {
+    background-color: #ffffff; /* White card background */
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(46, 139, 87, 0.15); /* Soft shadow using the main green color */
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+/* --- Heading --- */
+.container h2 {
+    color: #2e8b57; /* Medium Sea Green, same as your previous header color */
+    margin-bottom: 25px;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+/* --- Form Group & Labels --- */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #3cb371; /* Brighter Medium Sea Green */
+}
+
+/* --- Input Fields --- */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c8e6c9; /* Very light green border */
+    border-radius: 8px;
+    box-sizing: border-box; /* Ensures padding doesn't increase total width */
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #3cb371; /* Highlight border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(60, 179, 113, 0.5); /* Subtle light green glow */
+}
+
+/* --- Button --- */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2e8b57; /* Solid green button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn:hover {
+    background-color: #3cb371; /* Lighter green on hover */
+}
+
+.btn:active {
+    /* Subtle press effect */
+    transform: scale(0.99); 
+}
+
+/* --- Links Section --- */
+.links {
+    margin-top: 25px;
+    font-size: 0.9em;
+}
+
+.links a {
+    color: #2e8b57; /* Green link text */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #096d16; /* Darker green on hover */
+    text-decoration: underline;
+}
