@@ -174,7 +174,7 @@ nav {
   transform: translateX(-50%);
   width: 100px;
   height: 4px;
-  background: linear-gradient(to right, #2e8b57, #ffd700);
+  background: linear-gradient(to left, #2e8b57, #ffd700);
   border-radius: 2px;
 }
 
