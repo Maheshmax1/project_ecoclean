@@ -288,7 +288,7 @@ section h2::after {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.contact input,
+/* .contact input,
 .contact textarea {
   padding: 15px;
   border-radius: 10px;
@@ -322,7 +322,7 @@ section h2::after {
   background: #3cb371;
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(46, 139, 87, 0.3);
-}
+} */
 
 /* Footer */
 footer {
