@@ -6,7 +6,7 @@ class Event(Base):
     __tablename__ = "events"
 
     event_id = Column(Integer, primary_key=True, index=True)
-    user_id = Column(Integer, ForeignKey("users.user_id"))  # admin created
+    user_id = Column(Integer, ForeignKey("users.user_id"))  
     event_name = Column(String)
     event_description = Column(String)
     event_date = Column(DateTime)

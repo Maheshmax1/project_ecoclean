@@ -76,4 +76,4 @@ def delete_event(event_id: int, db: Session = Depends(get_db)):
 def get_messages(db: Session = Depends(get_db)):
     return db.query(ContactMessage).order_by(
         ContactMessage.submission_date.desc()
-    ).all()
+    ).all()  

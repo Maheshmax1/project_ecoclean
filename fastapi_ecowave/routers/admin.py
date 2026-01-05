@@ -34,3 +34,5 @@ def delete_admin(admin_id: int, db: Session = Depends(get_db), ):
     db.delete(admin)
     db.commit()
     return {"message": "Admin deleted"}
+
+    

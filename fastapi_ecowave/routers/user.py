@@ -48,3 +48,7 @@ def delete_user(user_id: int, db: Session = Depends(get_db)):
     db.delete(user)
     db.commit()
     return {"message": "User deleted"}
+
+@router.get("/", response_model=list[UserOut],  status_code=status.HTTP_200_OK)
+def get_users(db: Session = Depends(get_db)):
+    return db.query(User).all()
